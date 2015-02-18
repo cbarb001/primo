@@ -55,7 +55,9 @@ div.nav li  {
   position: fixed;
 }
 
-
+.border{
+  border: 1px solid red;
+}
 
 
 // home
@@ -76,7 +78,7 @@ div.nav li  {
 }
 
 .burger{
-  background-image: image-url("homeBurger.jpg");
+  background-image: url("homeBurger.jpg");
 }
 
 .heightHomePic{
@@ -86,8 +88,12 @@ div.nav li  {
 
 // menu
 
+.col-md-6, .col-md-6{
+  padding-top: 0px;
+}
+
 .chalkboard{
-	background-image: image-url("chalkboard.jpg");
+	background-image: url("chalkboard.jpg");
 }
 
 .menu-wrapper{
@@ -104,8 +110,16 @@ div.nav li  {
 
 .allDay{
   text-align: center;
+  font-size: 20px;
 }
 
+.left{
+  margin-left: -160px;
+}
+
+.right{
+  margin-left: 100px;
+}
 .menu-item{
   font-size: 20px;
   text-align: left;
@@ -169,7 +183,6 @@ span.notSelectedMenu{
   font-size: 14px;
   line-height: 1.428571429;
 }
-
 
 // flat icon
 
