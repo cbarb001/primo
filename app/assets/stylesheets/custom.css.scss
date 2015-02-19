@@ -9,11 +9,13 @@ body{
 
 
 .nav{
-  background-color:maroon;
+  background-color:black;
   color: wheat;
   z-index: 100;
   left: 0;
   right: 0;
+  bottom: 0;
+  position: fixed;
 }
 div.nav li  {
 	list-style-type: none;
@@ -60,12 +62,19 @@ div.nav li  {
 }
 
 
+.logoList{
+
+}
+
+.primo-logo{
+  max-height: 10px;
+}
+
 // home
 
 .top-pic-wrapper{
   justify-content:center;
   align-items: center;
-  overflow:scroll;
 }
 
 .background-pic{
@@ -79,6 +88,10 @@ div.nav li  {
 
 .burger{
   background-image: url("homeBurger.jpg");
+}
+
+.logo{
+  background-image: url("primoslogo.png");
 }
 
 .heightHomePic{
