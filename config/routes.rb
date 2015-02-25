@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   get 'locations/index' => 'locations#index', as: :locations
 
+  get 'homes/test' => 'homes#test', as: :test
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

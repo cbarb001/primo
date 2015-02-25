@@ -45,9 +45,11 @@ div.nav li  {
     }
 }
 
+
 .restaurantName{
 	font-size: 60px;
-	padding: 1%;
+	padding-top: 3%;
+  padding-bottom: 0;
   font-family: 'Anton', sans-serif;
   // text-shadow: 2px 2px black;
   text-shadow: 1px 1px 3px black;
@@ -55,6 +57,11 @@ div.nav li  {
 
 .nav {
 	text-align: center;
+  // background-image: url("mascot.png");
+  // background-size: 100px;
+  // background-repeat: no-repeat;
+  // background-position: center;
+
 }
 
 .fixed{
@@ -65,6 +72,9 @@ div.nav li  {
   border: 1px solid red;
 }
 
+.mascot img{
+  max-height: 90px;
+}
 
 
 // home
