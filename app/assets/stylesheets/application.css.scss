@@ -17,3 +17,277 @@
 
 
 @import "font-awesome";
+
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body, html{
+  background-color: maroon;
+  height: 100%;
+}
+
+// nav bar
+
+
+.nav{
+  background-color:maroon;
+  color: wheat;
+  z-index: 100;
+  left: 0;
+  right: 0;
+}
+div.nav li  {
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: middle;
+
+
+    
+  a {
+     font-size: 17px;
+     padding-left: 1%;
+     padding-right: 1%;
+     padding-top: 20%;
+     padding-bottom: 14%;
+     color: white;
+     vertical-align: middle;
+     margin: auto;
+     border-top: 2px dotted white;
+     border-bottom: 2px dotted white;
+    }
+
+    :hover{
+      color: gray;
+      text-decoration: none;
+
+    }
+}
+
+
+.restaurantName{
+  font-size: 60px;
+  padding: 1%;
+  font-family: 'Anton', sans-serif;
+  text-shadow: 1px 1px 3px black;
+  vertical-align: middle;
+}
+
+.nav {
+	text-align: center;
+
+}
+
+.fixed{
+  position: fixed;
+}
+
+
+.mascot img{
+  max-height: 90px;
+}
+
+
+// home
+
+.top-pic-wrapper{
+  justify-content:center;
+  align-items: center;
+  height: 85%;
+}
+
+.background-pic{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	flex-shrink: 0;
+	min-width: 100%;
+	min-height: 100%;
+	repeat: none;
+}
+
+.burger {
+background-image: url("burger.jpg");
+}
+
+
+.heightHomePic{
+	height: 85%;
+}
+
+
+// menu
+
+.col-md-6, .col-md-6{
+  padding-top: 0px;
+}
+
+.chalkboard{
+	background-image: url("chalkboard.jpg");
+}
+
+.menu-wrapper{
+	font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+	color: white;
+}
+
+.menu-title{
+	text-align: center;
+	font-size: 45px;
+  margin-top: 10%;
+  padding: 0px;
+}
+
+.allDay{
+  text-align: center;
+  font-size: 20px;
+}
+
+.left{
+  margin-left: -160px;
+}
+
+.right{
+  margin-left: 100px;
+}
+.menu-item{
+  font-size: 20px;
+  text-align: left;
+  list-style: none;
+  padding-left: 20%;
+}
+
+.item-title{
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 20%;
+  font-size: 40px;
+}
+
+.heightMenuPic{
+	height: auto;
+}
+
+span.notSelectedMenu{
+  font-size: 20px;
+  vertical-align: middle;
+  color: gray;
+
+  a{
+    color: gray;
+    text-decoration: none;
+  }
+}
+
+.borderLeft{
+  border-left: thick solid gray;
+  padding-left: 10px;
+}
+
+.borderRight{
+  border-right: thick solid gray;
+  padding-right: 10px;
+}
+
+// locations
+.whiteBackground{
+  background-color: white;
+  padding: 5%;
+}
+
+.paddingTop{
+  padding-top: 10%;
+}
+
+.border{border:1px solid black;}
+
+.locationTitle{
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+}
+
+.locationsPageWrapper{
+  text-align: left;
+  padding: 5%;
+}
+
+.restaurantImage img{
+  max-height: 200px;
+  padding-bottom: 2%;
+}
+// flat icon
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("flaticon.eot");
+  src: url("flaticon.eot#iefix") format("embedded-opentype"),
+  url("flaticon.woff") format("woff"),
+  url("flaticon.ttf") format("truetype"),
+  url("flaticon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-bacon:before {
+  content: "\e000";
+}
+.flaticon-burger15:before {
+  content: "\e001";
+}
+.flaticon-child:before {
+  content: "\e002";
+}
+.flaticon-coke:before {
+  content: "\e003";
+}
+.flaticon-egg4:before {
+  content: "\e004";
+}
+.flaticon-female235:before {
+  content: "\e005";
+}
+.flaticon-fried5:before {
+  content: "\e006";
+}
+.flaticon-hot33:before {
+  content: "\e007";
+}
+.flaticon-hot51:before {
+  content: "\e008";
+}
+.flaticon-packed:before {
+  content: "\e009";
+}
+.flaticon-pancake:before {
+  content: "\e00a";
+}
+.flaticon-salad:before {
+  content: "\e00b";
+}
+.flaticon-sandwich:before {
+  content: "\e00c";
+}
+.flaticon-sandwich1:before {
+  content: "\e00d";
+}
+.flaticon-shrimp:before {
+  content: "\e00e";
+}
+.flaticon-snack2:before {
+  content: "\e00f";
+}
+.flaticon-sunny2:before {
+  content: "\e010";
+}
+.flaticon-thick16:before {
+  content: "\e011";
+}
+
+
