@@ -227,6 +227,15 @@ span.notSelectedMenu{
   line-height: 1.428571429;
 }
 
+.overlay {
+  background:transparent; 
+  position:relative; 
+  width:632px;
+  height:250px; /* your iframe height */
+  top:250px;  /* your iframe height */
+  margin-top:-250px;  /* your iframe height */
+}
+
 .locationsPageWrapper{
   text-align: left;
   padding: 5%;
