@@ -190,6 +190,22 @@ span.notSelectedMenu{
 }
 
 // locations
+
+
+.locationFont{
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.picBorder{
+  border: 1px solid black;
+}
+
+.paperBackground{
+  background-image: url("paper.jpg");
+}
+
 .whiteBackground{
   background-color: white;
   padding: 5%;
@@ -213,7 +229,7 @@ span.notSelectedMenu{
 }
 
 .restaurantImage img{
-  max-height: 200px;
+  max-height: 205px;
   padding-bottom: 2%;
 }
 // flat icon
