@@ -194,7 +194,6 @@ span.notSelectedMenu{
 
 .locationFont{
   font-family: 'Lora', serif;
-  // font-family: 'Anton', sans-serif;
   font-size: 20px;
   text-align: center;
 }
@@ -242,7 +241,8 @@ span.notSelectedMenu{
 }
 
 .restaurantImage img{
-  max-height: 205px;
+  max-height: 100%;
+  max-width: 100%;
   padding-bottom: 2%;
 }
 // flat icon

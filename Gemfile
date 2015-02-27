@@ -30,6 +30,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
  gem 'unicorn'
 
+ # # Sinc assets to S3
+ # gem "fog", "~>1.20", require: "fog/aws/storage"
+ # gem 'asset_sync'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
