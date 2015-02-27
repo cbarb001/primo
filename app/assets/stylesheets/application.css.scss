@@ -94,7 +94,7 @@ div.nav li  {
 .top-pic-wrapper{
   justify-content:center;
   align-items: center;
-  height: 85%;
+  height: 80%;
 }
 
 .background-pic{
@@ -104,6 +104,7 @@ div.nav li  {
 	min-width: 100%;
 	min-height: 100%;
 	repeat: none;
+  overflow: hidden;
 }
 
 .burger {
