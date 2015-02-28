@@ -91,20 +91,24 @@ div.nav li  {
 
 // home
 
-.top-pic-wrapper{
-  justify-content:center;
-  align-items: center;
-  height: 80%;
-}
+// .top-pic-wrapper{
+//   justify-content:center;
+//   align-items: center;
+//   height: 80%;
+// }
 
-.background-pic{
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	flex-shrink: 0;
-	min-width: 100%;
-	min-height: 100%;
-	repeat: none;
-  overflow: hidden;
+// .background-pic{
+// 	background-repeat: no-repeat;
+// 	background-size: 100% 100%;
+// 	flex-shrink: 0;
+// 	min-width: 100%;
+// 	min-height: 100%;
+// 	repeat: none;
+//   overflow: hidden;
+// }
+
+.slide-wrapper{
+  max-height: 50%;
 }
 
 .burger {
@@ -112,10 +116,13 @@ background-image: url("burger.jpg");
 }
 
 
-.heightHomePic{
-	height: 85%;
-}
+// .heightHomePic{
+// 	height: 85%;
+// }
 
+.slidy{
+  height: 80%;
+}
 
 // menu
 
