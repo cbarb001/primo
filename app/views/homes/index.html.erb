@@ -1,15 +1,41 @@
-<div class="slideWrapper">
-  <div class="row">
-      <figure id="slidy">
-        <%= image_tag "burger.gif" %>
-        <%= image_tag "eggs.gif" %>
-        <%= image_tag "burrito.gif" %>
-        <%= image_tag "salad.gif" %>
-        <%= image_tag "wings.gif" %>
-      </figure>
+
+<div class="row">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+                                    <div class="item active width100">
+                                     <%= image_tag "burger.gif" %>
+                                </div>
+                                <div class="item">
+                                    <%= image_tag "eggs.gif" %>
+                                </div>
+                                <div class="item">
+                                     <%= image_tag "burrito.gif" %>
+                                </div>
+                                <div class="item">
+                                     <%= image_tag "salad.gif" %>
+                                </div>
+                                <div class="item">
+                                     <%= image_tag "wings.gif" %>
+                                </div>
   </div>
 
-    <div class="nav">
+  <!-- Controls -->
+</div>
+</div>
+
+
+
+        <div class="nav">
       <div class="row">
         <ul>
           <li><%= link_to "menu", :breakfast %></li>
@@ -22,4 +48,4 @@
       </div>
     </div>
 </div>
-
+    

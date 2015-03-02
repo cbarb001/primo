@@ -55,3 +55,6 @@ group :production, :staging do
   gem 'rails_12factor'
 end
 
+gem 'rambling-slider-rails', :git => 'https://github.com/gonzedge/rambling-slider-rails'
+
+

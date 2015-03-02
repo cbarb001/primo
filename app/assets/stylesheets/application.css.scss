@@ -38,7 +38,6 @@ body, html{
   left: 0;
   right: 0;
   text-align: center;
-  position: absolute;
   bottom: 0;
 }
 div.nav li  {
@@ -114,6 +113,10 @@ div.nav li  {
 background-image: url("burger.jpg");
 }
 
+.slideWrapper{
+  height:100%;
+  widht: 100%;
+}
 
 
 
@@ -318,6 +321,10 @@ margin-left: 20px;
 }
 .flaticon-thick16:before {
   content: "\e011";
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+  width:100%!important;
 }
 
 
