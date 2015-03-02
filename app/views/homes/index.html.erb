@@ -1,23 +1,26 @@
 
-  <div class="slide-wrapper">
-    <figure id="slidy">
-      <%= image_tag "burger.gif" %>
-      <%= image_tag "eggs.gif" %>
-      <%= image_tag "burrito.gif" %>
-      <%= image_tag "salad.gif" %>
-      <%= image_tag "wings.gif" %>
-    </figure>
+
+  <div class="row slideWrapper">
+      <figure id="slidy">
+        <%= image_tag "burger.gif" %>
+        <%= image_tag "eggs.gif" %>
+        <%= image_tag "burrito.gif" %>
+        <%= image_tag "salad.gif" %>
+        <%= image_tag "wings.gif" %>
+      </figure>
   </div>
 
-<div class="nav navbar-default clear">
-  <div class="row">
-    <ul>
-      <li><%= link_to "menu", :breakfast %></li>
-      <li class="restaurantName">PRIMO
-          <span class="mascot"><%= image_tag "mascot.png" %></span>
-           BURGERS
-      </li>
-      <li><%= link_to "Locations", :locations %></li>
-    </ul>
-  </div>
-</div>
+    <div class="nav navbar-default clear">
+      <div class="row">
+        <ul>
+          <li><%= link_to "menu", :breakfast %></li>
+          <li class="restaurantName">PRIMO
+              <span class="mascot"><%= image_tag "mascot.png" %></span>
+               BURGERS
+          </li>
+          <li><%= link_to "Locations", :locations %></li>
+        </ul>
+      </div>
+    </div>
+
+
