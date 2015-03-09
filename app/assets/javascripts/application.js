@@ -17,3 +17,35 @@
 
 
 $("#carousel").carousel();
+
+
+$(window).load(function() {
+	$('.flexslider').flexslider({
+		animation: "slide",
+		slideshow: true,
+		slideshowSpeed: 6000,
+		animationSpeed: 700,
+		controlNav: true,
+		directionNav: false,
+	});
+});
+
+$(document).ready(function() {
+    fixFlexsliderHeight();
+});
+
+$(window).load(function() {
+    fixFlexsliderHeight();
+});
+
+$(window).resize(function() {
+    fixFlexsliderHeight();
+});
+
+function fixFlexsliderHeight() {
+    // Set fixed height based on the tallest slide
+    var sliderHeight = $(window).height() - 170;
+    $('.flexslider').each(function(){
+        $(this).find('li').css({'max-height' : sliderHeight});
+    });
+}

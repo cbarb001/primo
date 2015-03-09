@@ -1,19 +1,19 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- *= require font-awesome
- */
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any styles
+* defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+* file per style scope.
+*
+*= require_tree .
+*= require_self
+*= require font-awesome
+*/
 
 
 @import "font-awesome";
@@ -24,65 +24,65 @@
 @import "bootstrap";
 
 body, html{
-  background-color: maroon;
-  height: 100%;
+background-color: maroon;
+height: 100%;
 }
 
 // nav bar
 
 
 .nav{
-  background-color:maroon;
-  color: wheat;
-  z-index: 100!important;
-  left: 0!important;
-  right: 0!important;
-  text-align: center!important;
+background-color:maroon;
+color: wheat;
+z-index: 100!important;
+left: 0!important;
+right: 0!important;
+text-align: center!important;
 }
 div.nav li  {
-	list-style-type: none;
-	display: inline-block;
-	vertical-align: middle;
+list-style-type: none;
+display: inline-block;
+vertical-align: middle;
 
 
-    
-  a {
-     font-size: 17px;
-     padding-left: 1%;
-     padding-right: 1%;
-     padding-top: 20%;
-     padding-bottom: 14%;
-     color: white;
-     vertical-align: middle;
-     margin: auto;
-     border-top: 2px dotted white;
-     border-bottom: 2px dotted white;
-    }
 
-    :hover{
-      color: gray;
-      text-decoration: none;
+a {
+font-size: 17px;
+padding-left: 1%;
+padding-right: 1%;
+padding-top: 20%;
+padding-bottom: 14%;
+color: white;
+vertical-align: middle;
+margin: auto;
+border-top: 2px dotted white;
+border-bottom: 2px dotted white;
+}
 
-    }
+:hover{
+color: gray;
+text-decoration: none;
+
+}
 }
 
 
 .restaurantName{
-  font-size: 60px;
-  padding: 1%;
-  font-family: 'Anton', sans-serif;
-  text-shadow: 1px 1px 3px black;
-  vertical-align: middle;
+font-size: 60px;
+padding: 1%;
+font-family: 'Anton', sans-serif;
+text-shadow: 1px 1px 3px black;
+vertical-align: middle;
 }
 
 
 .fixed{
-  position: fixed;
+position: fixed;
 }
 
 
 .mascot img{
-  max-height: 90px;
+max-height: 90px;
 }
 
 
@@ -113,8 +113,8 @@ background-image: url("burger.jpg");
 }
 
 .slideWrapper{
-  height:100%;
-  widht: 100%;
+height:100%;
+widht: 100%;
 }
 
 
@@ -122,210 +122,534 @@ background-image: url("burger.jpg");
 // menu
 
 .col-md-6, .col-md-6{
-  padding-top: 0px;
+padding-top: 0px;
 }
 
 .chalkboard{
-	background-image: url("chalkboard.jpg");
+background-image: url("chalkboard.jpg");
 }
 
 .menu-wrapper{
-	font-family: Chalkboard, ‘Comic Sans’, sans-serif;
-	color: white;
+font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+color: white;
 }
 
 .menu-title{
-	text-align: center;
-	font-size: 45px;
-  margin-top: 10%;
-  padding: 0px;
+text-align: center;
+font-size: 45px;
+margin-top: 10%;
+padding: 0px;
 }
 
 .allDay{
-  text-align: center;
-  font-size: 20px;
+text-align: center;
+font-size: 20px;
 }
 
 .left{
-  margin-left: -160px;
+margin-left: -160px;
 }
 
 .right{
-  margin-left: 100px;
+margin-left: 100px;
 }
 .menu-item{
-  font-size: 20px;
-  text-align: left;
-  list-style: none;
-  padding-left: 20%;
+font-size: 20px;
+text-align: left;
+list-style: none;
+padding-left: 20%;
 }
 
 .item-title{
-  text-align: left;
-  padding-top: 5%;
-  padding-left: 20%;
-  font-size: 40px;
+text-align: left;
+padding-top: 5%;
+padding-left: 20%;
+font-size: 40px;
 }
 
 .heightMenuPic{
-	height: auto;
+height: auto;
 }
 
 span.notSelectedMenu{
-  font-size: 20px;
-  vertical-align: middle;
-  color: gray;
+font-size: 20px;
+vertical-align: middle;
+color: gray;
 
-  a{
-    color: gray;
-    text-decoration: none;
-  }
+a{
+color: gray;
+text-decoration: none;
+}
 }
 
 .borderLeft{
-  border-left: thick solid gray;
-  padding-left: 10px;
+border-left: thick solid gray;
+padding-left: 10px;
 }
 
 .borderRight{
-  border-right: thick solid gray;
-  padding-right: 10px;
+border-right: thick solid gray;
+padding-right: 10px;
 }
 
 // locations
 
 
 .locationFont{
-  font-family: 'Lora', serif;
-  font-size: 20px;
-  text-align: center;
+font-family: 'Lora', serif;
+font-size: 20px;
+text-align: center;
 }
 
 .locationTitlefont{
-  font-family: 'Anton', sans-serif;
+font-family: 'Anton', sans-serif;
 }
 .picBorder{
-  border: 1px solid black;
+border: 1px solid black;
 }
 
 .paperBackground{
-  background-image: url("paper.jpg");
+background-image: url("paper.jpg");
 }
 
 .whiteBackground{
-  background-color: white;
-  padding: 5%;
+background-color: white;
+padding: 5%;
 }
 
 .paddingTop{
-  padding-top: 10%;
+padding-top: 10%;
 }
 
 .border{border:1px solid black;}
 
 .locationTitle{
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.428571429;
+font-family: "Open Sans", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1.428571429;
 }
 
 .overlay {
-  background:transparent; 
-  position:relative; 
-  width:632px;
-  height:250px; /* your iframe height */
-  top:250px;  /* your iframe height */
-  margin-top:-250px;  /* your iframe height */
+background:transparent; 
+position:relative; 
+width:632px;
+height:250px; /* your iframe height */
+top:250px;  /* your iframe height */
+margin-top:-250px;  /* your iframe height */
 }
 
 .locationsPageWrapper{
-  text-align: left;
-  padding: 5%;
+text-align: left;
+padding: 5%;
 }
 
 .restaurantImage img{
-  max-height: 100%;
-  max-width: 100%;
-  padding-bottom: 2%;
+max-height: 100%;
+max-width: 100%;
+padding-bottom: 2%;
 }
 // flat icon
 
 @font-face {
-  font-family: "Flaticon";
-  src: url("flaticon.eot");
-  src: url("flaticon.eot#iefix") format("embedded-opentype"),
-  url("flaticon.woff") format("woff"),
-  url("flaticon.ttf") format("truetype"),
-  url("flaticon.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
+font-family: "Flaticon";
+src: url("flaticon.eot");
+src: url("flaticon.eot#iefix") format("embedded-opentype"),
+url("flaticon.woff") format("woff"),
+url("flaticon.ttf") format("truetype"),
+url("flaticon.svg") format("svg");
+font-weight: normal;
+font-style: normal;
 }
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
+font-family: Flaticon;
 font-style: normal;
 margin-left: 20px;
 }
 
 .flaticon-bacon:before {
-  content: "\e000";
+content: "\e000";
 }
 .flaticon-burger15:before {
-  content: "\e001";
+content: "\e001";
 }
 .flaticon-child:before {
-  content: "\e002";
+content: "\e002";
 }
 .flaticon-coke:before {
-  content: "\e003";
+content: "\e003";
 }
 .flaticon-egg4:before {
-  content: "\e004";
+content: "\e004";
 }
 .flaticon-female235:before {
-  content: "\e005";
+content: "\e005";
 }
 .flaticon-fried5:before {
-  content: "\e006";
+content: "\e006";
 }
 .flaticon-hot33:before {
-  content: "\e007";
+content: "\e007";
 }
 .flaticon-hot51:before {
-  content: "\e008";
+content: "\e008";
 }
 .flaticon-packed:before {
-  content: "\e009";
+content: "\e009";
 }
 .flaticon-pancake:before {
-  content: "\e00a";
+content: "\e00a";
 }
 .flaticon-salad:before {
-  content: "\e00b";
+content: "\e00b";
 }
 .flaticon-sandwich:before {
-  content: "\e00c";
+content: "\e00c";
 }
 .flaticon-sandwich1:before {
-  content: "\e00d";
+content: "\e00d";
 }
 .flaticon-shrimp:before {
-  content: "\e00e";
+content: "\e00e";
 }
 .flaticon-snack2:before {
-  content: "\e00f";
+content: "\e00f";
 }
 .flaticon-sunny2:before {
-  content: "\e010";
+content: "\e010";
 }
 .flaticon-thick16:before {
-  content: "\e011";
+content: "\e011";
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
-  width:100%!important;
-  height: 650px!important;
+width:100%!important;
+height: 650px!important;
 }
+
+
+//** slider **//
+.homeSlider{
+position: relative;
+display: inline-block;
+width: 100%;
+clear: both;
+margin-bottom: 20px;
+}
+
+.flexslider{
+border: none;
+box-shadow: none;
+margin-bottom: 0;
+background: none;
+}
+.flexslider .slides > li{
+	max-height: 300px;
+}
+
+.flex-control-nav{
+bottom: 30px;
+}
+
+.flex-control-paging li a{
+background: none;
+box-shadow: none;
+border: 1px solid #fff;
+}
+
+.flex-control-paging li a:hover,
+.flex-control-paging li a.flex-active{
+background: #fff;
+}
+
+/** sliderEnd **/
+
+
+.paperBackground,
+.chalkboard{
+background-size: cover;
+}
+
+.row{
+margin-left: 0;
+margin-right: 0;
+}
+
+.carousel-inner {
+max-height: 650px;
+}
+
+.carousel-inner > .item > a > img, 
+.carousel-inner > .item > img, 
+.thumbnail a > img, 
+.thumbnail > img{
+width: 100% !important;
+height: auto !important;
+}
+
+.menu-title{
+margin-top: 130px;
+}
+
+.menu-item {
+display: inline-block;
+font-size: 20px;
+list-style: outside none none;
+padding-left: 20%;
+text-align: left;
+width: 100%;
+margin-bottom: 15px;
+}
+
+.item-title {
+padding-left: 20%;
+padding-right: 50px;
+padding-top: 20px;
+margin-bottom: 15px;
+position: relative;
+text-align: left;
+line-height: 1.2;
+color: wheat;
+display: inline-block;
+}
+.item-title > i{
+position: absolute;
+right: 0;
+top: 20px;
+}
+
+div.nav li a:hover,
+span.notSelectedMenu a:hover{
+color: wheat;
+}
+
+.mascot img{
+width: 100%;
+display: inline-block;
+height: auto;
+max-width: 138px;
+}
+
+.borderLeft {
+border-left: thick solid gray;
+margin-left: 5px;
+padding-left: 10px;
+}
+.allDay {
+padding-top: 10px;
+text-align: center;
+}
+
+
+//** location **//
+.locationsPageWrapper{
+padding: 0;
+}
+.location{
+padding-top: 150px;
+position: relative;
+}
+.secBlock{
+padding-top: 30px;
+padding-bottom: 20px;
+}
+
+.locationMap{
+width: 100%;
+display: inline-block;
+padding: 20px 15px;
+}
+.locationMap iframe{
+width: 100%;
+display: block;
+}
+
+.restaurantImage,
+.locationFont{
+width: 100%;
+display: inline-block;
+}
+
+.restaurantImage{
+padding-top: 15px;
+}
+.restaurantImage img{
+display: block;
+width: 100%;
+}
+
+
+@media (min-width: 1500px){
+.restaurantImage {
+display: inline-block;
+float: right;
+max-width: 300px;
+width: 100%;
+}
+
+.menu-title {
+margin-top: 150px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+.locationFont{
+font-size: 16px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+.restaurantName{
+font-size: 40px;
+}
+div.nav li a {
+border-bottom: 2px dotted white;
+border-top: 2px dotted white;
+color: white;
+font-size: 17px;
+line-height: 1.2;
+margin: auto;
+padding: 7px 1%;
+vertical-align: middle;
+}
+.item-title {
+font-size: 36px;
+}
+}
+@media only screen and (max-width: 767px){
+.nav.fixed{
+position: relative;
+}
+
+.menu-title{
+margin-top: 30px;
+font-size: 30px;
+}
+
+.paddingTop{
+padding-top: 30px;
+}
+
+.allDay,
+span.notSelectedMenu{
+font-size: 18px;
+}
+
+.right,
+.left{
+margin: 0 auto;
+}
+
+.menu-item,
+.item-title{
+padding-left: 0;
+margin-right: auto;
+margin-left: auto;
+max-width: 500px;
+float: none;
+display: block;
+width: 100%;
+clear: both;
+position: relative;
+}
+
+.restaurantName{
+font-size: 40px;
+}
+div.nav {
+padding: 15px 0 10px;
+display: inline-block;
+width: 100%;
+}
+div.nav ul{
+padding: 0;
+margin: 0;
+}
+div.nav li{
+width: 100%;
+padding: 10px 0;
+}
+div.nav li a {
+border-bottom: 2px dotted white;
+border-top: 2px dotted white;
+color: white;
+font-size: 17px;
+line-height: 1.2;
+margin: auto;
+padding: 7px 1%;
+vertical-align: middle;
+}
+
+.item-title {
+font-size: 30px;
+}
+
+.col-md-6, .col-sm-6{
+width: 100%;
+}
+
+.location{
+display: block;
+margin: 0 auto;
+max-width: 500px;
+padding-top: 30px;
+width: 100%;
+}
+
+.secBlock{
+padding-top: 0;
+}
+
+.locationTitle .col-md-6{
+padding: 0;
+}
+.locationMap{
+padding: 15px 0;
+}
+.item-title > i{
+	right: auto;
+}
+
+}
+
+
+@media only screen and (max-width: 480px){
+.restaurantName {
+font-size: 26px;
+}
+
+.mascot{
+display: inline-block;
+width: 100px;
+}
+
+.menu-title{
+font-size: 20px;
+}
+.paddingTop{
+padding-top: 20px;
+}
+
+.allDay,
+span.notSelectedMenu{
+font-size: 16px;
+}
+
+.item-title {
+font-size: 26px;
+margin-bottom: 10px;
+}
+
+.menu-title{
+margin-top: 20px;
+}
+
+.menu-item{
+font-size: 18px;
+}
+}
+
+
+
+
 
 
 
