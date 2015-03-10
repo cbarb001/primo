@@ -22,7 +22,7 @@ $("#carousel").carousel();
 $(window).load(function() {
 	$('.flexslider').flexslider({
 		animation: "slide",
-		slideshow: false,
+		slideshow: true,
 		slideshowSpeed: 6000,
 		animationSpeed: 700,
 		controlNav: true,
