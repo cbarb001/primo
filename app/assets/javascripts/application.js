@@ -22,7 +22,7 @@ $("#carousel").carousel();
 $(window).load(function() {
 	$('.flexslider').flexslider({
 		animation: "slide",
-		slideshow: true,
+		slideshow: false,
 		slideshowSpeed: 6000,
 		animationSpeed: 700,
 		controlNav: true,
@@ -47,5 +47,6 @@ function fixFlexsliderHeight() {
     var sliderHeight = $(window).height() - 170;
     $('.flexslider').each(function(){
         $(this).find('li').css({'max-height' : sliderHeight});
+        $(this).find('img').css({'max-height' : sliderHeight});
     });
 }

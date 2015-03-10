@@ -28,6 +28,10 @@ background-color: maroon;
 height: 100%;
 }
 
+.container{
+	margin: 0 auto;;
+}
+
 // nav bar
 
 
@@ -47,16 +51,19 @@ vertical-align: middle;
 
 
 a {
-font-size: 17px;
-padding-left: 1%;
-padding-right: 1%;
-padding-top: 20%;
-padding-bottom: 14%;
-color: white;
-vertical-align: middle;
-margin: auto;
-border-top: 2px dotted white;
-border-bottom: 2px dotted white;
+  font-size: 18px;
+  padding-left: 12px;
+  padding-right:12px;
+  padding-top: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  color: white;
+  vertical-align: middle;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
 }
 
 :hover{
@@ -114,7 +121,7 @@ background-image: url("burger.jpg");
 
 .slideWrapper{
 height:100%;
-widht: 100%;
+width: 100%;
 }
 
 
@@ -385,6 +392,7 @@ max-height: 650px;
 .thumbnail > img{
 width: 100% !important;
 height: auto !important;
+z-index: 100 !important;
 }
 
 .menu-title{
@@ -568,8 +576,6 @@ width: 100%;
 padding: 10px 0;
 }
 div.nav li a {
-border-bottom: 2px dotted white;
-border-top: 2px dotted white;
 color: white;
 font-size: 17px;
 line-height: 1.2;
