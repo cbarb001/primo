@@ -255,7 +255,47 @@ max-height: 100%;
 max-width: 100%;
 padding-bottom: 2%;
 }
-// flat icon
+
+
+//** About Page **//
+
+.white{
+  color:white !important;
+}
+
+.relative{
+  position:relative !important;
+}
+.absolute{
+  position:absolute !important;
+}
+
+.content{
+    background: blue;
+    position: absolute;
+    top: 0;
+    padding-top: 7em;
+    min-height: 100%;
+}
+
+.pad{
+  padding-right:5% !important;
+}
+
+.bigFont{
+  font-size: 50px !important;
+}
+
+.smallFont{
+  font-size: 30px !important;
+}
+
+.aboutLeft{
+  padding-left: 5%;
+  text-align: center;
+}
+
+//** icon images **//
 
 @font-face {
 font-family: "Flaticon";
@@ -273,6 +313,7 @@ font-family: Flaticon;
 font-style: normal;
 margin-left: 20px;
 }
+
 
 .flaticon-bacon:before {
 content: "\e000";
